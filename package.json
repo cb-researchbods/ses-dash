@@ -1,0 +1,15 @@
+{
+  "name": "ses-dash",
+  "version": "1.0.0",
+  "description": "The new, shiny, improved SES Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/function_result.js"
+  },
+  "author": "cb-researchbods",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "pug": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}
