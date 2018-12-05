@@ -5,7 +5,7 @@ const request = require("request");
 
 // Sets the API's address
 let api = "https://fqiawae364.execute-api.eu-west-1.amazonaws.com/prod/\
-           ses-dashboard";
+ses-dashboard";
 
 // Compiles error.pug and index.pug
 var error_page = pug.compileFile(path.join("views", "error.pug"));
@@ -22,7 +22,7 @@ exports.handler = (event, context, callback) => {
       return callback(null, error_page({
         error: "Error contacting API",
         description: "This could be because the server's address moved, or \
-                      because of networking/firewalling faults."
+because of networking/firewalling faults."
       }));
 
     // If the API's response cannot be parsed
